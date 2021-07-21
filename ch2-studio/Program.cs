@@ -12,7 +12,7 @@ namespace ch2_studio
             if (!double.TryParse(input, out radius))
             {
                 Console.WriteLine("Error: Non-numeric value entered.");
-
+                //can also use "Environment.Exit(0);" instead of putting everything in the else statement
             } else
             {
                 while (radius < 0)
